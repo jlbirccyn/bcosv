@@ -66,3 +66,28 @@ il y a une homologation a passer (se renseigner concretement)
 
 évolution possible : 
 - faire une poignée de volant / commodo / télécommande , avec des interrupteurs qui commandent les cligniotants, le klaxon, ou d'autres fonctions du véhicule.
+
+# Conception du système
+
+Du point de vue du conducteur, le système est donc formé de la pédale d'accélérateur, d'une manette remplissant le même rôle mais pour la main, d'un bouton permettant de passer d'un mode de conduite par la pédale à un mode de conduite par la manette et d'un témoin affichant le mode courant. Au démarrage du système, le mode actif est le mode de conduite par la pédale.
+
+Selon les informations trouvées dans la documentation, la pédale envoie au calculateur une tension analogique délivrée par un capteur de type potentiomètre. Il s'avère que le capteur est un capteur à effet hall qui délivre (peut-être) une tension comprise entre 0V et 12V.
+
+Le système est destiné à être inséré entre la pédale d'accélérateur et le calculateur.
+
+En entrée, le système reçoit
+- la position de la pédale sous la forme d'une tension analogique. 
+- la position de la manette (potentiomètre) sous la forme d'une tension analogique
+- la position on ou off du bouton poussoir de changement de mode.
+- 
+En sortie, le système 
+- construit une tension analogique qui recopie la tension d'entrée de la pédale ou la tension d'entrée de la manette selon le mode.
+- pilote l'allumage du témoin selon le mode.
+
+## Electronique
+
+HANDrive est construit autour d'un Arduino Uno. Une électronique additionnelle est nécessaire pour :
+- adapter le niveau d'entrée de la pédale afin qu'il puisse être lu par l'Arduino
+- construite une tension analogique en sortie
+- adapter cette tension analogique, qui est comprise entre 0 et 5V, vers une tension analogique entre 0 et 12V
+
