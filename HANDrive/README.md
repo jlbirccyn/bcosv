@@ -79,7 +79,7 @@ En entrée, le système reçoit
 - la position de la pédale sous la forme d'une tension analogique. 
 - la position de la manette (potentiomètre) sous la forme d'une tension analogique
 - la position on ou off du bouton poussoir de changement de mode.
-- 
+
 En sortie, le système 
 - construit une tension analogique qui recopie la tension d'entrée de la pédale ou la tension d'entrée de la manette selon le mode.
 - pilote l'allumage du témoin selon le mode.
