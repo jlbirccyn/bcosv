@@ -1,5 +1,6 @@
-# bcosv
-Dépot des projets du Boot camp OSV du 27 au 29 Avril 2016. 
+# Description 
+
+This repository has been created during the Boot camp OSV from April 27 to 29  2016. 
 
 
 
@@ -16,7 +17,7 @@ et de son usage possible dans le contexte local Rennais.
 
 + Règle 1 : Le travail réalisé pendant la durée du boot camp est ouvert. 
 
-+ Règle 2 : Les langues de travail sont indiféremment le français ou l'anglais (selon le contexte).
++ Règle 2 : Les langues de travail sont indifféremment le français ou l'anglais (selon le contexte).
 
 + Règle 3 : Les projets sont définis après la présentation des règles du jeu.
 
