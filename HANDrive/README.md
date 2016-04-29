@@ -1,15 +1,17 @@
-HANDrive
+# HANDrive
 
 système de conduite manuelle pour personnes à mobilité réduite 
 (n'ayant pas l'usage des jambes/pieds)
 accelérateur + frein
 
 
-contexte : 
+## contexte
+
 lors de l'open camp OSV, le propriétaire de l'OSVéhicle est une association / collectivité, 
 la voiture est mise en autopartage.
 
-problématique : 
+## problématique
+
 lorsqu'une PMR souhaite conduire de façon autonome un véhicule partagé, 
 le système de conduite standard n'est pas adapté 
 aux conditions nécessaires requises par la personnes (plusieurs cas possible : paraplegique, ou amputé d'un bras gauche, par exemple)
@@ -49,7 +51,8 @@ n'ayant pas sur place le matériel nécessaire à la fabrication, nous nous limi
 
 
 
-législation : 
+## législation
+
 pour ce type d'aide technique à la conduite, la PMR doit avoir un permis de conduire adapté à cette aide technique (et donc passer une visite médicale dans une prefecture)
 (10 changment de vitesse adapté) <--juridique / tehnique --> (boite automatique)
 (20 mécanisme de freinage adapté) <--- juridique / tehnique --> (frein mécanique)
@@ -59,18 +62,6 @@ la législation en terme d'homologation du matériel :
 - frein doit etre mécanique (pas de panne possible pour cet élément de sécurité)
 - l'accélérateur doit etre mécanique ou éléctronique, car en cas de panne, le véhicule ralenti tout seul.
 il y a une homologation a passer (se renseigner concretement)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 évolution possible : 
